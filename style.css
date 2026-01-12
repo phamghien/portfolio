@@ -1,5 +1,12 @@
+@font-face { 
+    font-family: 'Inter';
+    src: url(inter.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: 'Inter'; 
     min-height: 100vh;
     background-color: #fbfbfb;
     display: flex; 
@@ -13,6 +20,7 @@ p, li {
     margin: 0; 
     padding: 0; 
     color: gray; 
+    font-size: small;
 
 }
 
@@ -43,6 +51,18 @@ img {
     margin-left: 25px;
 }
 
-h4 { 
+.education-container, .gwc-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  h4 {
+    margin: 0;
     margin-bottom: 0;
-}
+  }
+  
+  .date p {
+    margin: 0;
+  }
