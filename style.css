@@ -51,6 +51,10 @@ img {
     margin-left: 25px;
 }
 
+.personal, button { 
+  margin-top: 10px;
+}
+
 .education-container, .gwc-container {
     display: flex;
     justify-content: space-between;
@@ -67,14 +71,26 @@ img {
     margin: 0;
   }
 
-  .skills-container{ 
+  .skills-container { 
     display: flex;
     flex-direction: row;
     gap: 10px;
   }
 
-  .language{ 
+  .language { 
     display: flex;
     flex-direction: row;
     gap: 3px; 
+  }
+
+  .link { 
+    border: none;
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
+
+  }
+
+  .link:hover { 
+    border: 1px solid #888;
+    background-color: #ddd;
   }
