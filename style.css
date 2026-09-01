@@ -13,7 +13,7 @@ a {
 body {
     font-family: 'Inter'; 
     min-height: 100vh;
-    background-color: #fbfbfb;
+    background-color: #fbfbfbe7;
     display: flex; 
     flex-direction: row;
     align-items: center;
